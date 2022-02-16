@@ -13,9 +13,9 @@
  * @link      http://phpseclib.sourceforge.net
  */
 
-namespace phpseclibXD\\File\ASN1\Maps;
+namespace phpseclibXD\File\ASN1\Maps;
 
-use phpseclibXD\\File\ASN1;
+use phpseclibXD\File\ASN1;
 
 /**
  * CertificateIssuer
