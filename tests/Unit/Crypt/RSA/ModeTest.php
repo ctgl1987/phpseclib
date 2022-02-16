@@ -5,10 +5,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\PublicKeyLoader;
-use phpseclib3\Crypt\RSA;
-use phpseclib3\Crypt\RSA\Formats\Keys\PKCS8;
-use phpseclib3\Math\BigInteger;
+use phpseclibXD\Crypt\PublicKeyLoader;
+use phpseclibXD\Crypt\RSA;
+use phpseclibXD\Crypt\RSA\Formats\Keys\PKCS8;
+use phpseclibXD\Math\BigInteger;
 
 class Unit_Crypt_RSA_ModeTest extends PhpseclibTestCase
 {

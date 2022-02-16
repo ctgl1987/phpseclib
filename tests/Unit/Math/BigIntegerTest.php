@@ -1,10 +1,10 @@
 <?php
 
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\BigInteger\Engines\BCMath;
-use phpseclib3\Math\BigInteger\Engines\GMP;
-use phpseclib3\Math\BigInteger\Engines\PHP32;
-use phpseclib3\Math\BigInteger\Engines\PHP64;
+use phpseclibXD\Math\BigInteger;
+use phpseclibXD\Math\BigInteger\Engines\BCMath;
+use phpseclibXD\Math\BigInteger\Engines\GMP;
+use phpseclibXD\Math\BigInteger\Engines\PHP32;
+use phpseclibXD\Math\BigInteger\Engines\PHP64;
 
 class Unit_Math_BigIntegerTest extends PhpseclibTestCase
 {
@@ -15,8 +15,8 @@ class Unit_Math_BigIntegerTest extends PhpseclibTestCase
 	 */
 	private static function mockEngine($className, $isValid) {
 		eval(<<<ENGINE
-namespace phpseclib3\Math\BigInteger\Engines;
-class ${className} extends \phpseclib3\Math\BigInteger\Engines\Engine {
+namespace phpseclibXD\Math\BigInteger\Engines;
+class ${className} extends \phpseclibXD\Math\BigInteger\Engines\Engine {
 	public function __construct(){} 
 	public static function isValidEngine() { return ${isValid}; }
 	public static function setModExpEngine(\$engine){} 

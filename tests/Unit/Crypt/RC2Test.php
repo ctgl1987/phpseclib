@@ -5,7 +5,7 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\RC2;
+use phpseclibXD\Crypt\RC2;
 
 class Unit_Crypt_RC2Test extends PhpseclibTestCase
 {

@@ -5,10 +5,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\AES;
-use phpseclib3\Crypt\Rijndael;
-use phpseclib3\Exception\InconsistentSetupException;
-use phpseclib3\Exception\InsufficientSetupException;
+use phpseclibXD\Crypt\AES;
+use phpseclibXD\Crypt\Rijndael;
+use phpseclibXD\Exception\InconsistentSetupException;
+use phpseclibXD\Exception\InsufficientSetupException;
 
 abstract class Unit_Crypt_AES_TestCase extends PhpseclibTestCase
 {

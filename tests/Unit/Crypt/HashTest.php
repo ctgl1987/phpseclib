@@ -5,8 +5,8 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\Hash;
-use phpseclib3\Exception\UnsupportedAlgorithmException;
+use phpseclibXD\Crypt\Hash;
+use phpseclibXD\Exception\UnsupportedAlgorithmException;
 
 class Unit_Crypt_HashTest extends PhpseclibTestCase
 {

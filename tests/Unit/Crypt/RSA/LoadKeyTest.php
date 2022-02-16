@@ -5,18 +5,18 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\PublicKeyLoader;
-use phpseclib3\Crypt\RSA;
-use phpseclib3\Crypt\RSA\Formats\Keys\OpenSSH;
-use phpseclib3\Crypt\RSA\Formats\Keys\PKCS1;
-use phpseclib3\Crypt\RSA\Formats\Keys\PKCS8;
-use phpseclib3\Crypt\RSA\Formats\Keys\PSS;
-use phpseclib3\Crypt\RSA\Formats\Keys\PuTTY;
-use phpseclib3\Crypt\RSA\PrivateKey;
-use phpseclib3\Crypt\RSA\PublicKey;
-use phpseclib3\Exception\NoKeyLoadedException;
-use phpseclib3\Exception\UnsupportedFormatException;
-use phpseclib3\Math\BigInteger;
+use phpseclibXD\Crypt\PublicKeyLoader;
+use phpseclibXD\Crypt\RSA;
+use phpseclibXD\Crypt\RSA\Formats\Keys\OpenSSH;
+use phpseclibXD\Crypt\RSA\Formats\Keys\PKCS1;
+use phpseclibXD\Crypt\RSA\Formats\Keys\PKCS8;
+use phpseclibXD\Crypt\RSA\Formats\Keys\PSS;
+use phpseclibXD\Crypt\RSA\Formats\Keys\PuTTY;
+use phpseclibXD\Crypt\RSA\PrivateKey;
+use phpseclibXD\Crypt\RSA\PublicKey;
+use phpseclibXD\Exception\NoKeyLoadedException;
+use phpseclibXD\Exception\UnsupportedFormatException;
+use phpseclibXD\Math\BigInteger;
 
 class Unit_Crypt_RSA_LoadKeyTest extends PhpseclibTestCase
 {

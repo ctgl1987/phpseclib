@@ -5,7 +5,7 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Math\BigInteger\Engines\PHP64;
+use phpseclibXD\Math\BigInteger\Engines\PHP64;
 
 class Unit_Math_BigInteger_PHP64OpenSSLTest extends Unit_Math_BigInteger_TestCase
 {
@@ -37,6 +37,6 @@ class Unit_Math_BigInteger_PHP64OpenSSLTest extends Unit_Math_BigInteger_TestCas
 
     public static function getStaticClass()
     {
-        return 'phpseclib3\Math\BigInteger\Engines\PHP64';
+        return 'phpseclibXD\Math\BigInteger\Engines\PHP64';
     }
 }

@@ -5,10 +5,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\EC;
-use phpseclib3\Crypt\RSA;
-use phpseclib3\File\ASN1;
-use phpseclib3\File\X509;
+use phpseclibXD\Crypt\EC;
+use phpseclibXD\Crypt\RSA;
+use phpseclibXD\File\ASN1;
+use phpseclibXD\File\X509;
 
 class Unit_File_X509_X509ExtensionTest extends PhpseclibTestCase
 {
@@ -77,7 +77,7 @@ class Unit_File_X509_X509ExtensionTest extends PhpseclibTestCase
         }
 
         $this->assertTrue($customExtensionDecodedData['toggle']);
-        $this->assertInstanceOf('phpseclib3\Math\BigInteger', $customExtensionDecodedData['num']);
+        $this->assertInstanceOf('phpseclibXD\Math\BigInteger', $customExtensionDecodedData['num']);
         $this->assertSame('3', (string) $customExtensionDecodedData['num']);
         $this->assertSame('Johnny', $customExtensionDecodedData['name']);
         $this->assertSame(['foo', 'bar'], $customExtensionDecodedData['list']);

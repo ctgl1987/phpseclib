@@ -6,10 +6,10 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Crypt\DSA;
-use phpseclib3\Crypt\DSA\Parameters;
-use phpseclib3\Crypt\DSA\PrivateKey;
-use phpseclib3\Crypt\DSA\PublicKey;
+use phpseclibXD\Crypt\DSA;
+use phpseclibXD\Crypt\DSA\Parameters;
+use phpseclibXD\Crypt\DSA\PrivateKey;
+use phpseclibXD\Crypt\DSA\PublicKey;
 
 /**
  * @requires PHP 7.0

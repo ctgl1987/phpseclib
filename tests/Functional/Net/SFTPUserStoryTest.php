@@ -6,8 +6,8 @@
  * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
  */
 
-use phpseclib3\Net\SFTP;
-use phpseclib3\Net\SFTP\FileType;
+use phpseclibXD\Net\SFTP;
+use phpseclibXD\Net\SFTP\FileType;
 
 class Functional_Net_SFTPUserStoryTest extends PhpseclibFunctionalTestCase
 {
