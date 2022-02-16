@@ -73,5 +73,6 @@
         "psr-4": {
             "phpseclibXD\\": "phpseclibXD/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
